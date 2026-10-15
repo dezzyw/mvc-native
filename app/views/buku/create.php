@@ -10,25 +10,25 @@
     <h2>Tambah Buku</h2>
 
     <form method="POST" action="index.php?page=buku&action=store">
-        <label>ISBN</label>br
+        <label>ISBN</label>
         <input type="text" name="isbn" maxlength="20" required><br><br>
 
-        <label>Judul</label>br
+        <label>Judul</label>
         <input type="text" name="judul" maxlength="150" required><br><br>
 
-        <label>Penulis</label>br
+        <label>Penulis</label>
         <input type="text" name="penulis" maxlength="100" required><br><br>
         
-        <label>Penerbit</label>br
+        <label>Penerbit</label>
         <input type="text" name="penerbit" maxlength="100" required><br><br>
 
-        <label>Tahun Terbit</label>br
+        <label>Tahun Terbit</label>
         <input type="number" name="tahun_terbit" min="1901" maxlength="2155" required><br><br>
 
-        <label>Kategori</label>br
+        <label>Kategori</label>
         <input type="text" name="kategori" maxlength="50" required><br><br>
 
-        <label>Stok</label>br
+        <label>Stok</label>
         <input type="number" name="stok" min="0" required><br><br>
 
         <button type="submit">Simpan</button>
