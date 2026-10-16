@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #f5f7fb;
+    color: #334155;
+    font-size: 13px;
+}
+
+h2{
+    color: #243b53;
+    margin-bottom: 22px;
+    font-size: 24px;
+}
+
+.tambah{
+    display: inline-block;
+    background-color: #2878f0;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 18px;
+    transition: 0.2s;
+}
+
+.tambah:hover{
+    background-color: #155dcc;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(30, 64, 175, 0.08);
+}
+
+thead{
+    background-color: #eaf2ff;
+}
+
+th{
+    color: #526783;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+
+th,
+td{
+    padding: 15px 12px;
+    text-align: left;
+    border-bottom: 1px solid #edf1f7;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f4f7fc;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #ffff;
+}
+
+tbody tr:hover{
+    background-color: #eaf2ff;
+}
+
+.edit,
+.hapus{
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    margin: 2px;
+}
+
+.edit{
+    background-color: #2878f0;
+}
+
+.edit:hover{
+    background-color: #155dcc;
+}
+
+.hapus{
+    background-color: #f0526b;
+}
+
+.hapus:hover{
+    background-color: #d93650;
+}
+
+td form{
+    display: inline;
+}
+
+body > form {
+    max-width: 550px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgba(30, 64, 175, 0.08);
+}
+
+body > form label{
+    display: inline-block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #475569;
+}
+
+body > form input[type="text"],
+body > form input[type='number']{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #d5eedb;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+body > form input:focus{
+    outline: none;
+    border-color: #2878f0;
+    box-shadow: 0 0 0 3px rgba(40, 120, 240, 0.12);
+}
+
+body > form button[type='submit']{
+    background-color: #2878f0;
+    color: white;
+}
+
+body > form > a{
+    background-color: #64748b;
+    color: white;
+}
